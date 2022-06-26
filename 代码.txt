@@ -13,4 +13,7 @@ git status（显示状态）
 git status -s （简单显示状态）
 git reset HEAD （要移除的文件） （从暂存区移除）
 git reset HEAD .（移除暂存区所有的文件）
-git rm -f (同时移除工作区和git仓库的文件)
+git rm -f  ""(同时移除工作区和git仓库的文件)
+git rm --cached ""(移除git仓库的文件，不移除工作区)
+git log （查看提交历史）
+git log  -2(查看最新两条提交历史)
