@@ -7,8 +7,10 @@ git config user.email （查看电子邮箱）
 git add （要跟踪的文件）(1把未跟踪的变成以跟踪的，2把已修改未保存到暂存区的保存到暂存区)
 git add  . (未跟踪的和已修改的全部加入暂存区)
 git commit -m（保存需要说明的文字） （把暂存区的保存到git仓库）
+git commit  -a -m（直接把跟踪的保存到git仓库）
 git checkout -- （撤销的文件）（撤销已修改的，回到跟git仓库的一致） 
 git status（显示状态）
 git status -s （简单显示状态）
 git reset HEAD （要移除的文件） （从暂存区移除）
 git reset HEAD .（移除暂存区所有的文件）
+git rm -f (同时移除工作区和git仓库的文件)
