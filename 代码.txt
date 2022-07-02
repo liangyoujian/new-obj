@@ -17,3 +17,7 @@ git rm -f  ""(同时移除工作区和git仓库的文件)
 git rm --cached ""(移除git仓库的文件，不移除工作区)
 git log （查看提交历史）
 git log  -2(查看最新两条提交历史)
+git log  --pretty=oneline(查看提交消息一行显示)
+git  reset  --hard(版本标识符)（跳转到指定版本）
+git reflog --pretty=oneline(查看跳转版本后的提交消息)
+.gitignore (里面写忽略的文件)
